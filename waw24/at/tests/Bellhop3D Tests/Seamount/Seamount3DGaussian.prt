@@ -1,0 +1,137 @@
+ BELLHOP/BELLHOP3D
+
+ BELLHOP3D- Seamount3D, Gaussian 361x601 rcvrs, 721x1201 beams                   
+ frequency =   5.000     Hz
+
+ Dummy parameter NMedia =            1
+
+     C-linear approximation to SSP
+     Attenuation units: dB/wavelength
+     VACUUM
+
+ Depth =   20000.00 m
+
+ Sound speed profile:
+   z (m)     alphaR (m/s)   betaR  rho (g/cm^3)  alphaI     betaI
+
+      0.00      1500.00      0.00     1.00       0.0000    0.0000
+  20000.00      1500.00      0.00     1.00       0.0000    0.0000
+
+                                 ( RMS roughness =   0.00     )
+     Bathymetry file selected
+     Perfectly RIGID
+ __________________________________________________________________________
+
+
+ Number of source x coordinates =            1
+ Source x coordinate (km)
+   3.00000    
+
+
+ Number of source y coordinates =            1
+ Source y coordinate (km)
+   0.00000    
+
+ __________________________________________________________________________
+
+
+ Number of source   depths =            1
+ Source depths (m)
+   100.000    
+
+ Number of receiver depths =            1
+ Receiver depths (m)
+   100.000    
+
+ Number of receiver ranges =         1201
+ Receiver ranges (km)
+   0.00000      0.100000E-01  0.200000E-01  0.300000E-01  0.400000E-01
+  0.500000E-01  0.600000E-01  0.700000E-01  0.800000E-01  0.900000E-01
+  0.100000      0.110000      0.120000      0.130000      0.140000    
+  0.150000      0.160000      0.170000      0.180000      0.190000    
+  0.200000    
+  ...    12.0000000    
+
+ __________________________________________________________________________
+
+
+ Number of receiver bearings =         1441
+ Receiver bearings (degrees)
+   90.0000       90.0625       90.1250       90.1875       90.2500    
+   90.3125       90.3750       90.4375       90.5000       90.5625    
+   90.6250       90.6875       90.7500       90.8125       90.8750    
+   90.9375       91.0000       91.0625       91.1250       91.1875    
+   91.2500    
+  ...    180.000000    
+
+ Arrivals calculation, ASCII  file output
+ Geometric hat beams in Cartesian coordinates
+ Point source (cylindrical coordinates)
+ Rectilinear receiver grid: Receivers at rr( : ) x rd( : )
+ 3D calculation
+
+ Number of beams in elevation   =           10
+ Beam take-off angles (degrees)
+  -89.0000      -69.2222      -49.4444      -29.6667      -9.88889    
+   9.88889       29.6667       49.4444       69.2222       89.0000    
+
+ Number of beams in bearing   =           10
+ Beam take-off angles (degrees)
+   90.0000       100.000       110.000       120.000       130.000    
+   140.000       150.000       160.000       170.000       180.000    
+
+ __________________________________________________________________________
+
+
+ Step length,        deltas =    1000.0000000000000      m
+
+ Maximum ray x-range, Box%x =    9000.0000000000000      m
+ Maximum ray y-range, Box%y =    9000.0000000000000      m
+ Maximum ray depth,   Box%z =    20500.000000000000      m
+ No beam shift in effect
+
+ *********************************
+ Using bottom-bathymetry file
+ Regular grid for a 3D run (curvilinear)
+
+ Number of bathymetry points in x-direction          30
+  -15.0000      -13.9655      -12.9310      -11.8966      -10.8621    
+  -9.82759      -8.79310      -7.75862      -6.72414      -5.68966    
+  -4.65517      -3.62069      -2.58621      -1.55172     -0.517241    
+  0.517241       1.55172       2.58621       3.62069       4.65517    
+   5.68966    
+  ...    15.000000000000002     
+
+ Number of bathymetry points in y-direction          30
+  -15.0000      -13.9655      -12.9310      -11.8966      -10.8621    
+  -9.82759      -8.79310      -7.75862      -6.72414      -5.68966    
+  -4.65517      -3.62069      -2.58621      -1.55172     -0.517241    
+  0.517241       1.55172       2.58621       3.62069       4.65517    
+   5.68966    
+  ...    15.000000000000002     
+
+
+ ( Maximum # of arrivals =           10 )
+
+
+ xs =    3000.0000000000000        0.0000000000000000        100.00000000000000     
+
+ Geometric beam, hat-shaped, Cart. coord.                                        
+ HalfWidth1  =    0.0000000000000000     
+ HalfWidth2  =    0.0000000000000000     
+ epsilonOPT1 =  (  0.0000000000000000     ,  0.0000000000000000     )
+ epsilonOPT2 =  (  0.0000000000000000     ,  0.0000000000000000     )
+ EpsMult     =    1.0000000000000000     
+
+Tracing azimuthal beam    1     90.00
+Tracing azimuthal beam    2    100.00
+Tracing azimuthal beam    3    110.00
+Tracing azimuthal beam    4    120.00
+Tracing azimuthal beam    5    130.00
+Tracing azimuthal beam    6    140.00
+Tracing azimuthal beam    7    150.00
+Tracing azimuthal beam    8    160.00
+Tracing azimuthal beam    9    170.00
+Tracing azimuthal beam   10    180.00
+
+ CPU Time =        86.4    s
