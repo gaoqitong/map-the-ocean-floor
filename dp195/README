@@ -14,4 +14,4 @@ input_output_3d.m: for 3d, reads .wav audio files and their corresponding bathym
 input_output_3d_multipings.m: for 3d multipings, reads .wav audio files and their corresponding bathymetry and creates input and output for neural net
 result.m: reconstructs 3d bathymetry from output of neural net
 
-
+Future plans: add convolution layers, use auto encoders 
